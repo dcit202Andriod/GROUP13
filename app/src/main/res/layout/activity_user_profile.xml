@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="80dp"
+        android:layout_marginBottom="50dp">
+        <TextView
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/user_profile"
+            android:textSize="50sp"
+            android:paddingBottom="20dp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_height="50dp">
+                <ImageView
+                    android:layout_width="61dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="2dp"
+                    android:src="@drawable/man" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:textSize="20sp"
+                    android:textAlignment="viewStart"
+                    android:onClick="onClickPerInfo"
+                    android:layout_height="wrap_content"
+                    android:text="@string/per_info" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:layout_width="61dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="2dp"
+                    android:src="@drawable/clock" />
+
+                <Button
+                    android:id="@+id/bHisButton"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:textSize="20sp"
+                    android:onClick="onClickBHis"
+                    android:textAlignment="viewStart"
+                    android:layout_height="wrap_content"
+                    android:text="@string/b_his" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:layout_width="61dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="2dp"
+                    android:src="@drawable/heart" />
+
+                <Button
+                    android:id="@+id/wishButton"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:textSize="20sp"
+                    android:onClick="onClickWishList"
+                    android:textAlignment="viewStart"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wish" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:layout_width="61dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="2dp"
+                    android:src="@drawable/rating" />
+
+                <Button
+                    android:id="@+id/reviewButton"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:textSize="20sp"
+                    android:onClick="onClickReview"
+                    android:textAlignment="viewStart"
+                    android:layout_height="wrap_content"
+                    android:text="@string/r_and_r" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:layout_width="61dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="2dp"
+                    android:src="@drawable/control" />
+
+                <Button
+                    android:id="@+id/prefButton"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:textSize="20sp"
+                    android:onClick="onClickPref"
+                    android:textAlignment="viewStart"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pref" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:layout_width="61dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="2dp"
+                    android:src="@drawable/bell" />
+
+                <Button
+                    android:id="@+id/notiButton"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:textSize="20sp"
+                    android:onClick="onClickNoti"
+                    android:textAlignment="viewStart"
+                    android:layout_height="wrap_content"
+                    android:text="@string/noti" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:layout_width="61dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="2dp"
+                    android:src="@drawable/debitcard" />
+
+                <Button
+
+                    android:id="@+id/paymentButton"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:textSize="20sp"
+                    android:textAlignment="viewStart"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pay"
+                    />
+                <!--Need to talk to Austin about payment method screen
+                also add privacy ,rewards later
+                -->
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:layout_width="61dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="2dp"
+                    android:src="@drawable/rewards" />
+
+                <Button
+                    android:id="@+id/loyaltyButton"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:textSize="20sp"
+                    android:textAlignment="viewStart"
+                    android:layout_height="wrap_content"
+                    android:text="@string/loyalty" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:layout_width="61dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="2dp"
+                    android:src="@drawable/keyhole" />
+
+                <Button
+                    android:id="@+id/privacyButton"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:textSize="20sp"
+                    android:textAlignment="viewStart"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sec" />
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

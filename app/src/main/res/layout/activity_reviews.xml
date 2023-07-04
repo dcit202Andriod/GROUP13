@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_marginEnd="2dp"
+        android:background="@drawable/textborder"
+        android:padding="10dp"
+
+        android:text="@string/leave_review"
+        android:textColor="#E91E63"
+        android:textSize="50sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:text="Subject:"
+            android:textColor="#E91E63"
+            android:textSize="30sp" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+
+            android:layout_marginStart="5dp"
+            android:entries="@array/reviewSubject" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="match_parent"
+        android:layout_height="457dp"
+        android:ems="10"
+
+        android:hint="Tell us a bit about yourself and \n tell us your problem..."
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="#ADAFB1"
+        android:textSize="25sp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="52dp"
+            android:layout_height="59dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="60dp"
+            android:clickable="true"
+            app:backgroundTint="#680F68"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/send_icon" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
+
+    <!--<androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="515dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="1200dp"
+            android:layout_marginBottom="0dp">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingActionButton2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="30dp"
+                android:clickable="true"
+                app:backgroundTint="#E91E63"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:srcCompat="@drawable/send_icon" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>-->

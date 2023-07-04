@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="70dp"
+        android:text="@string/save_button"
+        android:layout_height="40dp"
+        android:textSize="25sp"
+        android:layout_gravity="end"
+        android:onClick="onclickSave"
+        android:background="#FF5722"
+        android:textColor="@color/white"
+        android:textAllCaps="false"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="bottom"
+        android:textColor="@color/white"
+        android:text="@string/editPInfo"
+        android:textSize="30sp"
+
+
+        />
+    <EditText
+        android:id="@+id/fnameUserProfile"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/f_name"
+        android:textColor="@color/white"
+        android:textColorHint="#FF5722"
+        android:textSize="23dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/border"
+        />
+    <EditText
+        android:id="@+id/lnameUserProfile"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/last_name"
+        android:textColor="@color/white"
+        android:textColorHint="#FF5722"
+        android:padding="4dp"
+        android:textSize="23dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/border"
+        />
+
+
+    <EditText
+        android:id="@+id/emailUserProfile"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:textColorHint="#FF5722"
+        android:padding="4dp"
+        android:textSize="23dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/border"
+        />
+    <EditText
+        android:id="@+id/phoneUserProfile"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/phoneNo"
+        android:inputType="phone"
+        android:textColor="@color/white"
+        android:textColorHint="#FF5722"
+        android:padding="4dp"
+        android:textSize="23dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/border"
+        />
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

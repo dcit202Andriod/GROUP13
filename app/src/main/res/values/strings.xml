@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">lastone</string>
+
+    <string name="user_profile">User Profile</string>
+    <string name="per_info">Personal Information</string>
+    <string name="b_his">Booking History</string>
+    <string name="wish">Wishlist</string>
+    <string name="r_and_r">Reviews and Ratings</string>
+    <string name="pref">Preferences</string>
+    <string name="noti">Notifications</string>
+    <string name="student_ID">Student ID</string>
+    <string name="email">Email</string>
+    <string name="phoneNo">Phone Number</string>
+    <string name="leave_review">Leave A Review!</string>
+    <string-array name="reviewSubject">
+        <item>The App</item>
+        <item>Bel</item>
+        <item>Hostel 1</item>
+        <item>Hostel 2</item>
+
+    </string-array>
+    <string name="search">Search</string>
+    <string name="pay">Payment Methods</string>
+    <string name="loyalty">Rewards Program</string>
+    <string name="f_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="sec">Privacy and Security</string>
+    <string name="editPInfo">Edit Personal Information</string>
+    <string name="save_button">Save</string>
+
+</resources>
