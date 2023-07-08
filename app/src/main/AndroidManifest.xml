@@ -69,9 +69,8 @@
 
         <activity
             android:name=".HotelListings"
-            android:exported="true">
+            android:exported="false"/>
 
-        </activity>
 
        <!-- <activity
             android:name=".MainActivity"
