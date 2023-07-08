@@ -7,4 +7,7 @@ Each group member will now introduce thrmselves and state their contribution to 
 
 My name is Kwame Anderson. I acted as the group leader for this project.
 I was also responsible for creating the screens for
-the User Profile, Personal Information and Reviews. I also wrote the logic vehind those screens.
+the User Profile, Personal Information and Reviews. I also wrote the logic behind those screens.
+
+My name is Wilson Deku, I created the splash screen,login and 
+register screens
