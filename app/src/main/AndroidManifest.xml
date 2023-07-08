@@ -15,11 +15,7 @@
         <activity
             android:name=".splash"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
          <activity
@@ -71,16 +67,10 @@
         <activity
             android:name=".Booking_History"
             android:exported="false" />
-        <activity
-            android:name=".listView"
-            android:exported="false" />
+
+
 
         <activity
-            android:name=".HotelListings"
-            android:exported="false"/>
-
-
-       <!-- <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -88,7 +78,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>-->
+        </activity>
     </application>
 
 </manifest>

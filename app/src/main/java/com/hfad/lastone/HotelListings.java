@@ -1,4 +1,4 @@
-package com.example.hostellist;
+package com.hfad.lastone;
 
 import androidx.appcompat.app.AppCompatActivity;
 
