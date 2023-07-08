@@ -10,4 +10,5 @@ I was also responsible for creating the screens for
 the User Profile, Personal Information and Reviews. I also wrote the logic behind those screens.
 
 My name is Wilson Deku, I created the splash screen,login and 
-register screens
+register screens(username:Coded1234
+ID:10971611)
