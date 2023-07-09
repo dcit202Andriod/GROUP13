@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    android:padding="8dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/line_a"
+        android:layout_width="388dp"
+        android:layout_height="48dp"
+        android:text="Name"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:textAlignment="center"/>
+
+
+    <TextView
+        android:id="@+id/line_b"
+        android:layout_width="394dp"
+        android:layout_height="52dp"
+        android:text="ID"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="73dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/line_c"
+        android:layout_width="386dp"
+        android:layout_height="51dp"
+        android:layout_weight="0.20"
+        android:text="Residential Status"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="149dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/line_d"
+        android:layout_width="387dp"
+        android:layout_height="52dp"
+        android:layout_weight="0.20"
+        android:text="Hall of residence"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="217dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/line_e"
+        android:layout_width="397dp"
+        android:layout_height="58dp"
+        android:layout_weight="0.20"
+        android:text="Date of admission"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="296dp"
+        android:textAlignment="center"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
