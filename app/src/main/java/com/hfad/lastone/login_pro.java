@@ -18,4 +18,9 @@ public class login_pro extends AppCompatActivity {
         Intent intent=new Intent(login_pro.this, Register_pro.class);
         startActivity(intent);
     }
+
+    public void onClickLogin(View view) {
+        Intent intent =new Intent(this, Homepage.class);
+        startActivity(intent);
+    }
 }

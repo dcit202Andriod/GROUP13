@@ -67,6 +67,7 @@
             android:paddingEnd="16dp"
             android:paddingTop="12dp"
             android:layout_marginTop="40dp"
+            android:onClick="onClickLogin"
             android:paddingBottom="12dp"/>
 
         <LinearLayout
