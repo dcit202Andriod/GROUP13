@@ -15,18 +15,15 @@
         android:gravity="center"
         android:text="Select Payment Method"
         android:textSize="23sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="2dp" />
 
 
     <Button
         android:id="@+id/Credit_Card"
         android:layout_width="150dp"
         android:layout_height="54dp"
-        android:layout_marginStart="24dp"
         android:layout_marginTop="44dp"
-        android:layout_marginEnd="24dp"
         android:backgroundTint="#3B4D61"
         android:onClick="onButtonClicked"
         android:text="Credit Card"
@@ -38,9 +35,7 @@
         android:id="@+id/Mmoney"
         android:layout_width="149dp"
         android:layout_height="53dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginTop="32dp"
         android:backgroundTint="#E4BA1414"
         android:onClick="onButtonClicked"
         android:text="Mobile Money"
@@ -52,9 +47,7 @@
         android:id="@+id/Online_Payment"
         android:layout_width="149dp"
         android:layout_height="49dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginTop="34dp"
         android:backgroundTint="#4324AF"
         android:onClick="onButtonClicked"
         android:text="Online Payment"
