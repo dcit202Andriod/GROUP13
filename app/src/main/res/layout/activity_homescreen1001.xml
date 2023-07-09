@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/titlebar"
+        android:layout_width="420dp"
+        android:layout_height="40dp"
+        android:background="#0D208E"
+        android:text="@string/home"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="306dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="1dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Search"
+        app:layout_constraintEnd_toStartOf="@+id/search_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titlebar" />
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#1734CF"
+        android:text="Search"
+        android:textSize="16dp"
+        app:layout_constraintStart_toEndOf="@+id/editTextText"
+        app:layout_constraintTop_toBottomOf="@+id/titlebar" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="410dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="552dp"
+        android:layout_marginEnd="1dp"
+        android:background="#0676CF"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText">
+
+
+        <ImageButton
+            android:id="@+id/setimage"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="104dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/seticon" />
+
+        <ImageButton
+            android:id="@+id/user"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/userdp" />
+
+        <ImageButton
+            android:id="@+id/notiimage"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/noti" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/vandal"
+        android:layout_width="254dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:text="Commonwealth Hall:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+
+    <ImageButton
+        android:id="@+id/vandals"
+        android:layout_width="360dp"
+        android:layout_height="140dp"
+        android:layout_marginEnd="32dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vandal"
+        android:src="@drawable/vandals" />
+
+    <TextView
+        android:id="@+id/vhostel"
+        android:layout_width="153dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="8dp"
+        android:text="Vikings Hostel:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vandals" />
+
+    <ImageButton
+        android:id="@+id/vhostelimage"
+        android:layout_width="360dp"
+        android:layout_height="140dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/vhostel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vhostel" />
+
+    <TextView
+        android:id="@+id/fiveside"
+        android:layout_width="125dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="8dp"
+        android:text="Pentagon: "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vhostelimage" />
+
+
+    <ImageButton
+        android:id="@+id/fivesideimage"
+        android:layout_width="360dp"
+        android:layout_height="140dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.313"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fiveside"
+        app:srcCompat="@drawable/fiveside" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

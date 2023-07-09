@@ -15,5 +15,8 @@ My name is Wilson Deku, I created the splash screen,login and
 register screens(username:Coded1234
 ID:10971611)
 
+I am Dzorka Bless. I am the one behind the home screen of our mobile application. 
+Username= "1dzorkabless"
+ID= 10946997
 
 
