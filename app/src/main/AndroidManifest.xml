@@ -78,6 +78,9 @@
         <activity
             android:name=".Booking_History"
             android:exported="false" />
+
+
+
     </application>
 
 </manifest>
