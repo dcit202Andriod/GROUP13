@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Lastone"
         tools:targetApi="31">
         <activity
+            android:name=".Register_pro"
+            android:exported="false" />
+        <activity
             android:name=".login_pro"
             android:exported="false" />
         <activity
@@ -20,7 +23,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".splash"
             android:exported="true">
@@ -47,9 +50,6 @@
             android:exported="false" />
         <activity
             android:name=".reviews"
-            android:exported="false" />
-        <activity
-            android:name=".Register"
             android:exported="false" />
         <activity
             android:name=".preferences"

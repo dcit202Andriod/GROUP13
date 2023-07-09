@@ -2,6 +2,9 @@
     <string name="app_name">lastone</string>
     <string name="sign_in">Sign In</string>
     <string name="sign_up">Sign Up</string>
+<string name="username">Username</string>
+    <string name="ent_pass">Enter Password</string>
+    <string name="ent_pass2">Confirm Password</string>
 
     <string name="user_profile">User Profile</string>
     <string name="per_info">Personal Information</string>

@@ -2,6 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".login_pro"
     android:orientation="vertical"
     android:background="@color/white">
 
@@ -86,6 +88,7 @@
                 android:background="@color/white"
                 android:text="@string/sign_up"
                 android:textSize="26sp"
+                android:onClick="onClickSignUp"
                 android:textColor="#9F0F0F"/>
         </LinearLayout>
 
