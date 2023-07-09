@@ -1,4 +1,4 @@
-package com.example.hostellist;
+package com.hfad.lastone;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -18,7 +18,7 @@ public class HotelListings extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hotel_listings);
         listView = findViewById(R.id.listview);
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(
                 this,
                 android.R.layout.simple_list_item_1, // Use the built-in layout for each item
                 hostellist
@@ -34,3 +34,4 @@ public class HotelListings extends AppCompatActivity {
         });
     }
 }
+

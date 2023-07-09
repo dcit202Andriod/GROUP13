@@ -13,6 +13,15 @@
         android:theme="@style/Theme.Lastone"
         tools:targetApi="31">
         <activity
+            android:name=".login_pro"
+            android:exported="false" />
+        <activity
+            android:name=".ListView"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"></activity>
+        <activity
             android:name=".splash"
             android:exported="true">
             <intent-filter>
@@ -21,14 +30,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-         <activity
-            android:name=".listView"
-            android:exported="false" />
-
         <activity
             android:name=".HotelListings"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".Wishlist"
             android:exported="false" />
@@ -71,24 +75,6 @@
         <activity
             android:name=".Booking_History"
             android:exported="false" />
-        <activity
-            android:name=".listView"
-            android:exported="false" />
-
-        <activity
-            android:name=".HotelListings"
-            android:exported="false"/>
-
-
-       <!-- <activity
-            android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>-->
     </application>
 
 </manifest>
