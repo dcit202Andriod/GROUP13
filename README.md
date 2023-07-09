@@ -19,4 +19,8 @@ I am Dzorka Bless. I am the one behind the home screen of our mobile application
 Username= "1dzorkabless"
 ID= 10946997
 
+I am Austin Atsu. I am the person behind the payment screen, mobile money, credit card and online payment screens.
+I was also responsible for creating the functionality between these screens.
+My Username: Austin-10962018
+ID: 10962018
 
