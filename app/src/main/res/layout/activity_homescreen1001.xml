@@ -96,6 +96,7 @@
                 android:layout_marginBottom="20dp"
                 android:scaleType="fitXY"
                 android:src="@drawable/vandals"
+                android:onClick="onCWealth"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/vandal" />
 
@@ -119,6 +120,7 @@
                 android:layout_height="140dp"
                 android:layout_marginBottom="20dp"
                 android:scaleType="fitXY"
+                android:onClick="vik_OnClick"
                 android:src="@drawable/vhostel"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.372"
@@ -146,7 +148,7 @@
                 android:layout_width="360dp"
                 android:layout_height="140dp"
                 android:scaleType="fitXY"
-
+android:onClick="onClickPent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.313"
                 app:layout_constraintStart_toStartOf="parent"
