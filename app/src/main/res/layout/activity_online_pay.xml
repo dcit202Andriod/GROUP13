@@ -6,6 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".Online_Pay">
 
+
+    <LinearLayout
+        android:id="@+id/onLin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:clickable="true"
+            app:layout_constraintTop_toTopOf="parent"
+            app:backgroundTint="#C6FF00"
+            app:srcCompat="@drawable/backw"
+            android:onClick="onlineBack"
+            app:elevation="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteX="1dp"
+            android:focusable="true" />
+    </LinearLayout>
     <TextView
         android:id="@+id/textView6"
         android:layout_width="192dp"
@@ -16,14 +38,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/onLin" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="186dp"
         android:layout_height="53dp"
         android:layout_marginTop="28dp"
-        android:backgroundTint="#7E0B64"
+        android:backgroundTint="#FF1744"
         android:text="PayPal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,7 +56,7 @@
         android:layout_width="186dp"
         android:layout_height="51dp"
         android:layout_marginTop="20dp"
-        android:backgroundTint="#4F834B"
+        android:backgroundTint="#00E676"
         android:text="Google Pay"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.511"
@@ -46,7 +68,7 @@
         android:layout_width="186dp"
         android:layout_height="46dp"
         android:layout_marginTop="24dp"
-        android:backgroundTint="#D36614"
+        android:backgroundTint="#1DE9B6"
         android:text="Amazon Pay"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -60,7 +82,7 @@
         android:layout_width="188dp"
         android:layout_height="49dp"
         android:layout_marginTop="26dp"
-        android:backgroundTint="#495A6E"
+        android:backgroundTint="#FF9100"
         android:text="Apple Pay"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

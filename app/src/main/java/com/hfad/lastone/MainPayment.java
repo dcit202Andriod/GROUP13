@@ -10,10 +10,15 @@ import android.widget.Button;
 public class MainPayment extends AppCompatActivity {
     private Button mmoney,credit_card,online_payment;
 
+    Intent hostel;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mainpayment);
+        hostel= getIntent();
+
         mmoney = findViewById(R.id.Mmoney);
         mmoney.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,5 +45,26 @@ public class MainPayment extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    public void cwBack(View view) {
+
+        int x=hostel.getIntExtra("c",0);
+
+        switch (x){
+            case 1:
+            Intent intent=new Intent(this,cWeath_des.class);
+            startActivity(intent);
+            break;
+            case 2:Intent intent2=new Intent(this, vikings_des.class);
+            startActivity(intent2);
+                break;
+
+            case 3: Intent intent3 =new Intent(this, pent_des.class);
+            startActivity(intent3);
+            break;
+
+        }
+
     }
 }

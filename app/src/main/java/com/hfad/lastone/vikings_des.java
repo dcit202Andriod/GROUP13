@@ -16,7 +16,16 @@ public class vikings_des extends AppCompatActivity {
 
     public void onClickProceed(View view) {
         Intent intent=new Intent(this, MainPayment.class);
+        intent.putExtra("c",2);
+
         startActivity(intent);
 
     }
+
+    public void vikBack(View view) {
+        Intent intent = new Intent(this, Homepage.class);
+        startActivity(intent);
+    }
+
+
 }

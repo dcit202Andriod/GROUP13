@@ -16,7 +16,13 @@ public class cWeath_des extends AppCompatActivity {
 
     public void onClickProceed(View view) {
         Intent intent=new Intent(this, MainPayment.class);
+        intent.putExtra("c",1);
         startActivity(intent);
 
+    }
+
+    public void cwBack(View view) {
+        Intent intent = new Intent(this, Homepage.class);
+        startActivity(intent);
     }
 }

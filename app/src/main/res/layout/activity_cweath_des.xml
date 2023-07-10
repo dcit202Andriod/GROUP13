@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".vikings_des">
+    tools:context=".cWeath_des">
 
     <LinearLayout
         android:id="@+id/lin4"
@@ -21,9 +21,11 @@
             app:layout_constraintTop_toTopOf="parent"
             app:backgroundTint="@color/white"
             app:srcCompat="@drawable/backw"
+            android:onClick="cwBack"
             app:elevation="0dp"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteX="1dp" />
+            tools:layout_editor_absoluteX="1dp"
+            android:focusable="true" />
     </LinearLayout>
 
 

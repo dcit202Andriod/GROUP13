@@ -6,38 +6,48 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     tools:context=".MainPayment">
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="406dp"
-        android:layout_height="71dp"
-        android:background="#918281"
-        android:gravity="center"
-        android:text="@string/selPay"
-        android:textSize="23sp"
+    <LinearLayout
+        android:id="@+id/lin5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteX="2dp" />
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton2"
+            android:layout_width="67dp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="cwBack"
+            app:backgroundTint="#73C3CC"
+            app:elevation="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/backw"
+            tools:layout_editor_absoluteX="1dp" />
+
+    </LinearLayout>
 
 
     <Button
         android:id="@+id/Credit_Card"
         android:layout_width="150dp"
         android:layout_height="54dp"
-        android:layout_marginTop="44dp"
-        android:backgroundTint="#3B4D61"
+        android:layout_marginTop="112dp"
+        android:backgroundTint="#00E5FF"
         android:onClick="onButtonClicked"
         android:text="@string/card"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/lin5" />
 
     <Button
         android:id="@+id/Mmoney"
         android:layout_width="149dp"
         android:layout_height="53dp"
-        android:layout_marginTop="32dp"
-        android:backgroundTint="#E4BA1414"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#76FF03"
         android:onClick="onButtonClicked"
         android:text="@string/momo"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,13 +59,27 @@
         android:layout_width="149dp"
         android:layout_height="49dp"
         android:layout_marginTop="34dp"
-        android:backgroundTint="#4324AF"
+        android:backgroundTint="#FFC400"
         android:onClick="onButtonClicked"
         android:text="@string/ePay"
         android:textSize="13.9sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Mmoney" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="347dp"
+        android:layout_height="71dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/selPay"
+        android:textSize="23sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
