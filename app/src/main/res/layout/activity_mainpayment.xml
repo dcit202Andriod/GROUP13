@@ -13,9 +13,10 @@
         android:layout_height="71dp"
         android:background="#DA4D668E"
         android:gravity="center"
-        android:text="Select Payment Method"
+        android:text="@string/selPay"
         android:textSize="23sp"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteX="2dp" />
 
 
@@ -26,7 +27,7 @@
         android:layout_marginTop="44dp"
         android:backgroundTint="#3B4D61"
         android:onClick="onButtonClicked"
-        android:text="Credit Card"
+        android:text="@string/card"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
@@ -38,7 +39,7 @@
         android:layout_marginTop="32dp"
         android:backgroundTint="#E4BA1414"
         android:onClick="onButtonClicked"
-        android:text="Mobile Money"
+        android:text="@string/momo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Credit_Card" />
@@ -50,7 +51,7 @@
         android:layout_marginTop="34dp"
         android:backgroundTint="#4324AF"
         android:onClick="onButtonClicked"
-        android:text="Online Payment"
+        android:text="@string/ePay"
         android:textSize="13.9sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

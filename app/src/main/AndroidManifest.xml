@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Lastone"
         tools:targetApi="31">
         <activity
+            android:name=".pent_des"
+            android:exported="false" />
+        <activity
+            android:name=".cWeath_des"
+            android:exported="false" />
+        <activity
             android:name=".Homepage"
             android:exported="false" />
         <activity
@@ -21,8 +27,13 @@
         <activity
             android:name=".login_pro"
             android:exported="false" />
-        <activity
+        <!--
+   <activity
             android:name=".ListView"
+            android:exported="false" />
+        -->
+        <activity
+            android:name=".vikings_des"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -78,9 +89,6 @@
         <activity
             android:name=".Booking_History"
             android:exported="false" />
-
-
-
     </application>
 
 </manifest>
