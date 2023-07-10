@@ -75,6 +75,7 @@
             android:ems="10"
             android:paddingBottom="20dp"
             android:hint="Password"
+
             android:inputType="textEmailAddress"/>
 
 

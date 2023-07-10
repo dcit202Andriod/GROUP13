@@ -6,29 +6,48 @@
     android:layout_height="match_parent"
     android:background="@color/black"
     tools:context=".Homepage">
+    <LinearLayout
+        android:id="@+id/lin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:clickable="true"
+            app:layout_constraintTop_toTopOf="parent"
+            app:backgroundTint="@color/black"
+            app:srcCompat="@drawable/back"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteX="1dp" />
+        <TextView
+            android:id="@+id/titlebar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#0C0D13"
+            android:text="@string/home"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-3dp"
+            tools:layout_editor_absoluteY="-2dp" />
 
-    <TextView
-        android:id="@+id/titlebar"
-        android:layout_width="420dp"
-        android:layout_height="40dp"
-        android:background="#0C0D13"
-        android:text="@string/home"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="24sp"
+    </LinearLayout>
 
-        android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-3dp"
-        tools:layout_editor_absoluteY="-2dp" />
 
     <EditText
         android:id="@+id/editTextText"
         android:layout_width="306dp"
         android:layout_height="57dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="1dp"
         android:background="@color/white"
         android:ems="10"
@@ -36,27 +55,24 @@
         android:text="@string/search"
         app:layout_constraintEnd_toStartOf="@+id/search_button"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titlebar" />
-
+        app:layout_constraintTop_toBottomOf="@+id/lin1" />
 
 
     <Button
         android:id="@+id/search_button"
-
         android:layout_width="wrap_content"
-        android:text="@string/search"
         android:layout_height="57dp"
-        android:textSize="15sp"
         android:layout_gravity="end"
-        android:layout_marginTop="16dp"
-        android:backgroundTint="#1734CF"
+        android:layout_marginEnd="4dp"
         android:background="#FF5722"
-        android:textColor="@color/white"
+        android:backgroundTint="#1734CF"
+        android:text="@string/search"
         android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/editTextText"
-        app:layout_constraintTop_toBottomOf="@+id/titlebar"
-        />
-
+        app:layout_constraintTop_toTopOf="@+id/editTextText" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -280,7 +296,6 @@ android:background="@color/black"
             android:scaleType="fitXY"
             android:src="@drawable/noti" />
     </LinearLayout>
-
 
 
 
