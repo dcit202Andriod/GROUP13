@@ -6,6 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".vikings_des">
 
+    <LinearLayout
+        android:id="@+id/lin3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:clickable="true"
+            app:layout_constraintTop_toTopOf="parent"
+            app:backgroundTint="@color/white"
+            app:srcCompat="@drawable/backw"
+            app:elevation="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteX="1dp" />
+    </LinearLayout>
+
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="391dp"
@@ -13,7 +34,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:src="@drawable/fiveside"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/lin3"/>
 
     <TextView
         android:id="@+id/textView7"
