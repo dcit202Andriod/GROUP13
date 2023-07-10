@@ -13,7 +13,7 @@ public class MainPayment extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_payment);
+        setContentView(R.layout.activity_mainpayment);
         mmoney = findViewById(R.id.Mmoney);
         mmoney.setOnClickListener(new View.OnClickListener() {
             @Override
