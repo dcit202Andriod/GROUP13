@@ -30,28 +30,29 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="120dp"
+            android:layout_height="wrap_content"
             android:text="Subject:"
             android:textColor="#E91E63"
             android:textSize="30sp" />
 
         <Spinner
+            android:id="@+id/spinner"
             android:layout_width="match_parent"
-            android:layout_height="52dp"
-
+            android:layout_height="match_parent"
+android:background="#F50057"
             android:layout_marginStart="5dp"
             android:entries="@array/reviewSubject" />
     </LinearLayout>
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/reviewEditText"
         android:layout_width="match_parent"
-        android:layout_height="457dp"
+        android:layout_height="384dp"
         android:ems="10"
 
         android:hint="Tell us a bit about yourself and \n tell us your problem..."
         android:inputType="text"
-        android:textColor="@color/black"
+        android:textColor="#F50057"
         android:textColorHint="#ADAFB1"
         android:textSize="25sp" />
 
@@ -61,10 +62,11 @@
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/floatingActionButton"
-            android:layout_width="52dp"
-            android:layout_height="59dp"
+            android:layout_width="53dp"
+            android:layout_height="81dp"
             android:layout_marginEnd="36dp"
             android:layout_marginBottom="60dp"
+            android:onClick="onClickSendrev"
             android:clickable="true"
             app:backgroundTint="#680F68"
             app:layout_constraintBottom_toBottomOf="parent"
