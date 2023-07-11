@@ -9,6 +9,7 @@ import android.widget.Button;
 
 public class MainPayment extends AppCompatActivity {
     private Button mmoney,credit_card,online_payment;
+    private int x=1000;
 
     Intent hostel;
 
@@ -18,6 +19,8 @@ public class MainPayment extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mainpayment);
         hostel= getIntent();
+         x=hostel.getIntExtra("c",1000);
+
 
         mmoney = findViewById(R.id.Mmoney);
         mmoney.setOnClickListener(new View.OnClickListener() {
@@ -27,6 +30,7 @@ public class MainPayment extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
 
         credit_card = findViewById(R.id.Credit_Card);
         credit_card.setOnClickListener(new View.OnClickListener() {
@@ -48,10 +52,13 @@ public class MainPayment extends AppCompatActivity {
     }
 
     public void cwBack(View view) {
+        if(x==1000){Intent intent =new Intent(this,Homepage.class);
+        startActivity(intent);}
+        else {
 
-        int x=hostel.getIntExtra("c",0);
 
         switch (x){
+
             case 1:
             Intent intent=new Intent(this,cWeath_des.class);
             startActivity(intent);
@@ -64,7 +71,8 @@ public class MainPayment extends AppCompatActivity {
             startActivity(intent3);
             break;
 
-        }
+
+        }}
 
     }
 }
