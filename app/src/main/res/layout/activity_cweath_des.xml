@@ -67,7 +67,7 @@
         android:layout_width="365dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="Description: Nadia put your thing here."
+        android:text="Description: Commonwealth is an all-boys residence and the only one of it’s kind in the entire school. This hostel boasts of its vast number of influential and famous alumni across the country. Join Commonwealth not just for residence but join commonwealth to be part of a family."
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
