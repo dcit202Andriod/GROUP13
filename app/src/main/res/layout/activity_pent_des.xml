@@ -68,7 +68,7 @@
         android:layout_width="365dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="Description: Nadia put your thing here."
+        android:text="Description: The Pentagon Hostels are a cluster six story buildings making up the entire Pentagon (you would think they would name it hexagon) or as everyone knows it as “Pent” community. It’s room spaces range from 4 people in a single room to having  a room all to yourself with air conditioning. Rooms are spacious and have kitchens in them. Pentagon is an entire community on its own and we would love for you to be part of this community."
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
