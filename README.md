@@ -36,6 +36,10 @@ Nadia Parker is my name. I created the hostel listings layout as well as the cod
 User name;Parkernadia
 ID; 10968172
 
-I am Thomas Barden. I created the booking confirmation screen. 
+I am Thomas Barden. I created the booking summary screen. 
 Username:'Thomas10954047'
 Id='10954047'
+
+I am kwedjo Asante. I'm behind the room selection screen.
+Username='AsanteKwadjoAdjei'
+id='10981430'
