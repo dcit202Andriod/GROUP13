@@ -89,6 +89,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="27dp"
                 android:layout_gravity="clip_horizontal"
+                android:elevation="0dp"
                 android:background="@color/white"
                 android:onClick="onClickSignUp"
                 android:text="@string/sign_up"

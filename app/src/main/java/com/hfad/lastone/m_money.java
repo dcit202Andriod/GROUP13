@@ -18,4 +18,9 @@ public class m_money extends AppCompatActivity {
         Intent intent=new Intent(this, MainPayment.class);
         startActivity(intent);
     }
+
+    public void conf_mm(View view) {
+        Intent intent =new Intent(this,booking_summary.class);
+        startActivity(intent);
+    }
 }

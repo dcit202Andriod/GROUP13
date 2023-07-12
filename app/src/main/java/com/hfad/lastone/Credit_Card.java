@@ -18,4 +18,9 @@ public class Credit_Card extends AppCompatActivity {
         Intent intent=new Intent(this, MainPayment.class);
         startActivity(intent);
     }
+
+    public void OnClick_CC_proceed(View view) {
+        Intent intent =new Intent(this,booking_summary.class);
+        startActivity(intent);
+    }
 }

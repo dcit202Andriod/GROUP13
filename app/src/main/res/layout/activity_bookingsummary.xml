@@ -41,6 +41,7 @@
         android:layout_marginStart="268dp"
         android:layout_marginBottom="96dp"
         android:text="Confirm"
+
         android:onClick="bSumConfirm"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

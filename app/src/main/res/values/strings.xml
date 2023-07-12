@@ -41,5 +41,6 @@
     <string name="card">Credit Card</string>
     <string name="momo">Mobile Money</string>
     <string name="ePay">Online Payment</string>
+    <string name="bookingSuccess">You have succuesfully booked your room</string>
 
 </resources>

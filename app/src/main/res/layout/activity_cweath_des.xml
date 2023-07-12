@@ -86,7 +86,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <RadioGroup
-        android:id="@+id/radioGroup"
+        android:id="@+id/radioGroupC"
         android:layout_width="356dp"
         android:layout_height="146dp"
         android:layout_marginTop="8dp"
